@@ -41,6 +41,13 @@ export default [
     url: "https://blog.hiirachan.moe",
   },
   {
+    id: "crumbling",
+    intro: "22级 / 有点社恐又想要社交的菜菜密码手",
+    avatar:
+      "http://thirdqq.qlogo.cn/g?b=sdk&k=iabGvT61FrH7WD7jaIibiciaCw&kti=ZPcUrQAAAAA&s=640",
+    url: "https://fcrumbling.github.io/",
+  },
+  {
     id: "ma1n",
     intro: "22级 / Reverse / 努力变强",
     avatar:
