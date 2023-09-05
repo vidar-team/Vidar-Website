@@ -48,6 +48,13 @@ export default [
     url: "#",
   },
   {
+    id: "crumbling",
+    intro: "22级 / 菜菜密码手 / 有点社恐又想要社交的",
+    avatar:
+      "http://thirdqq.qlogo.cn/g?b=sdk&k=iabGvT61FrH7WD7jaIibiciaCw&kti=ZPcUrQAAAAA&s=640",
+    url: "https://fcrumbling.github.io/",
+  },
+  {
     id: "daidr",
     intro: "21级 / 前端练习生",
     avatar:
