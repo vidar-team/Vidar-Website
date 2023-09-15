@@ -97,6 +97,13 @@ export default [
     url: "#",
   },
   {
+    id: "Ch405",
+    intro: "22级 / 菜鸡misc手 /不会Web / 成分复杂 / 偶尔炼丹",
+    avatar:
+      "https://thirdqq.qlogo.cn/g?b=sdk&k=TeJjiamm43M6S2wBujc2VQA&kti=ZQQZpgAAAAI&s=640",
+    url: "https://sd0ric4.github.io/",
+  },
+  {
     id: "ba1van4",
     intro: "21级 / 不会Re / 不会美工 / 活在梦里 / 喜欢做不会的事情 / ◼◻粉",
     avatar: "https://thirdqq.qlogo.cn/g?b=sdk&k=kSt5er0OQMXROy28nzTia0A&s=640",
