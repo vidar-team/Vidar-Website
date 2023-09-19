@@ -55,6 +55,12 @@ export default [
     url: "https://fcrumbling.github.io/",
   },
   {
+    id: "Lierry",
+    intro: "22级 / crypto",
+    avatar: require("../../images/avatar/Lierry.jpg")
+    url: "#",
+  },
+  {
     id: "daidr",
     intro: "21级 / 前端练习生",
     avatar:
