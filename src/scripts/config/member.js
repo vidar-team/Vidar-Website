@@ -1,5 +1,102 @@
 export default [
   {
+    id: "Godz1lla",
+    intro: "23级 / 最抽象的会长生物 / 致敬传奇摆烂王",
+    avatar: require("../../images/avatar/Godz1lla.png"),
+    url: "#"
+  },
+  {
+    id: "z221x",
+    intro: "23级 / 副会长 / 战队队长 / 逆向菜鸡(偶尔做pwn)",
+    avatar: require("../../images/avatar/z221x.png"),
+    url: "http://z221x.cc"
+  },
+  {
+    id: "Mantle",
+    intro: "23级 / 啥都想学但是啥都不会 oωo",
+    avatar: require("../../images/avatar/RongBao.png"),
+    url: "https://csharpermantle.github.io"
+  },
+  {
+    id: "1s",
+    intro: "23菜鸡pwn手 / 体系结构，系统开发",
+    avatar: require("../../images/avatar/1s.png"),
+    url: "https://www.yizishun.com"
+  },
+  {
+    id: "mysid",
+    intro: "23级 / 努力成为渗透糕手",
+    avatar: require("../../images/avatar/mysid.jpg"),
+    url: "http://mysid.top"
+  },
+  {
+    id: "srf27",
+    intro: "23级 / 白银密码手 / 懒癌晚期",
+    avatar: require("../../images/avatar/srf27.png"),
+    url: "https://srf27.icu"
+  },
+  {
+    id: "NaCl",
+    intro: "23级 / 弱弱密码 / 我不想失眠~~~",
+    avatar: require("../../images/avatar/NaCl.png"),
+    url: "http://naclwww.xyz"
+  },
+  {
+    id: "l1nk",
+    intro: "23级 / 🐀🐀",
+    avatar: require("../../images/avatar/l1nk.png"),
+    url: "http://l1nk.icu"
+  },
+  {
+    id: "sh4ll0t",
+    intro: "23级 / web / 在学了在学了",
+    avatar: require("../../images/avatar/sh4ll0t.png"),
+    url: "http://sh4ll0t.github.io"
+  },
+  {
+    id: "addr3s5",
+    intro: "22级 / 喜欢听反方向的钟的逆向手",
+    avatar: require("../../images/avatar/addr3s5.png"),
+    url: "http://addr3s5.top"
+  },
+
+  {
+    id: "Ec3o",
+    intro: "23级 / 灿若繁星，宛若流萤",
+    avatar: require("../../images/avatar/Ec3o.png"),
+    url: "https://ec3o.fun"
+  },
+  {
+    id: "Kira",
+    intro: "23级 / Web",
+    avatar: require("../../images/avatar/Kira.png"),
+    url: "https://k1r4ca.top"
+  },
+  {
+    id: "M1aoo0bin",
+    intro: "23级 / 喵师傅，立志成为pwn手的美工",
+    avatar: require("../../images/avatar/M1aoo0bin.png"),
+    url: "https://z1nax5.github.io/"
+  },
+  {
+    id: "Fc04dB",
+    intro: "23级 / 喜欢web的菜鸡misc手",
+    avatar: require("../../images/avatar/Fc04dB.png"),
+    url: "http://fc04db.github.io"
+  },
+  {
+    id: "kk",
+    intro: "23级 / 美术",
+    avatar: require("../../images/avatar/kk.png"),
+    url: "#"
+  },
+  {
+    id: "woshiluo",
+    intro: "23级 / 「Jump up HIGH!!」",
+    avatar: require("../../images/avatar/woshiluo.png"),
+    url: "https://blog.woshiluo.com"
+  },
+  {
     id: "彼岸",
     intro: "22级 / 虚假的会长，真实的运营 / 许墨夫人",
     avatar: require("../../images/avatar/bian.jpg"),
@@ -10,7 +107,7 @@ export default [
     intro: "22级 / 副会长 / 战队队长 / 二进制安全",
     avatar:
       "https://thirdqq.qlogo.cn/g?b=sdk&k=OTcu1wFM35vSqc8A0UM39g&kti=ZI090gAAAAI&s=640",
-    url: "https://l0tus.vip",
+    url: "https://l0tus.vip/about/",
   },
   {
     id: "R1esbyfe",
@@ -35,7 +132,7 @@ export default [
   },
   {
     id: "Doddy",
-    intro: "22级 / Web",
+    intro: "22级 / Web / 兼职Misc",
     avatar:
       "https://thirdqq.qlogo.cn/g?b=sdk&k=wRF4CsE1KyvrGY8HbmEt4Q&kti=ZI090wAAAAA&s=640",
     url: "https://blog.hiirachan.moe",
