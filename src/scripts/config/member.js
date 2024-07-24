@@ -708,7 +708,7 @@ export default [
   },
   {
     id: "HeartSky",
-    intro: "15 级 / 挖不到洞 / 打不动 CTF / 内网渗透不了 / 工具写不出",
+    intro: "15 级 / 挖不到洞 / 打不动 CTF / 内网渗透不了 / 工具写不出 / 校友企业",
     avatar: require("../../images/avatar/heartsky.jpg"),
     url: "http://heartsky.info",
   },
@@ -753,7 +753,7 @@ export default [
   {
     id: "Hcamael",
     intro:
-      "13 级 / 知道创宇 404 安全研究员 / 现在 Nu1L 划划水 / IoT、Web、二进制漏洞，密码学，区块链都看得懂一点，但啥也不会",
+      "13 级 / 知道创宇 404 安全研究员 / 现在 Nu1L 划划水 / IoT、Web、二进制漏洞，密码学，区块链都看得懂一点，但啥也不会 / 「大黑客」",
     avatar: require("../../images/avatar/hcamael.jpg"),
     url: "#",
   },
@@ -776,12 +776,6 @@ export default [
     url: "#",
   },
   {
-    id: "lightless",
-    intro: "Web 安全 / 安全工程师 / 半吊子开发 / 半吊子安全研究",
-    avatar: require("../../images/avatar/lightless.jpg"),
-    url: "https://lightless.me/",
-  },
-  {
     id: "Edward_L",
     intro:
       "13 级 HDUISA 会长 / Web 安全 / 华为安全部门 / 二进制安全，fuzz，符号执行方向研究",
@@ -795,6 +789,12 @@ export default [
     url: "https://github.com/deadwind4",
   },
   {
+    id: "GeruzoniAnsasu",
+    intro: "aka pnck / 永远的幽灵协会新生 / 幽灵杭电校友 / 滑雪疯子",
+    avatar: require("../../images/avatar/pnck.png"),
+    url: "https://pnck.github.io/",
+  },
+  {
     id: "陈斩仙",
     intro: "什么都不会 / 咸鱼研究生 / <del>安恒</del>、<del>长亭</del> / SJTU",
     avatar: require("../../images/avatar/chenzhanxian.jpg"),
@@ -802,8 +802,14 @@ export default [
   },
   {
     id: "Eric",
-    intro: "渗透 / 人工智能 / 北师大博士在读",
+    intro: "渗透 / 人工智能 / 北师大博士",
     avatar: require("../../images/avatar/eric.jpg"),
     url: "https://3riccc.github.io",
   },
+  {
+    id: "lightless",
+    intro: "12 级 HDUISA 会长 / 阿里巴巴集团安全 / 半吊子开发 / 半吊子安全研究",
+    avatar: require("../../images/avatar/lightless.jpg"),
+    url: "https://lightless.me/",
+  }
 ];
