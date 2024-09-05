@@ -9,7 +9,7 @@ export default [
     id: "z221x",
     intro: "23级 / 副会长 / 战队队长 / 逆向菜鸡(偶尔做pwn)",
     avatar: require("../../images/avatar/z221x.png"),
-    url: "http://z221x.cc"
+    url: "https://www.z221x.website/"
   },
   {
     id: "Mantle",
