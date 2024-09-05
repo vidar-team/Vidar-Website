@@ -154,7 +154,7 @@ export default [
   {
     id: "Lierry",
     intro: "22级 / crypto",
-    avatar: require("../../images/avatar/Lierry.jpg")
+    avatar: require("../../images/avatar/Lierry.png"),
     url: "#",
   },
   {
