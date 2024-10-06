@@ -29,7 +29,7 @@ jobs:
       - name: Build the Docker image
         run: |
           echo "Building Website image with tag: ${{ steps.gen-tag.outputs.tag }}"
-          docker build --no-cache -f Dockerfile ./blog --tag ${{ env.IMAGE_BASE }}/${{ env.IMAGE_REPO }}-main:${{ steps.gen-tag.outputs.tag }}
+          docker build --no-cache -f Dockerfile ./ --tag ${{ env.IMAGE_BASE }}/${{ env.IMAGE_REPO }}-main:${{ steps.gen-tag.outputs.tag }}
       - name: Push the Docker image
         timeout-minutes: 3
         run: |
