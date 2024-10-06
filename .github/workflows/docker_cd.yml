@@ -1,0 +1,60 @@
+name: Docker Image CI
+
+on:
+  push:
+    branches:
+      - master
+  workflow_dispatch:
+
+env:
+  DEPLOY_NAME: 'vidar-website'
+  IMAGE_REPO: 'vidar-team/vidar-website'
+  IMAGE_BASE: 'registry.cn-hangzhou.aliyuncs.com'
+
+jobs:
+  build:
+    if: github.repository == 'vidar-team/Vidar-Website'
+    runs-on: ubuntu-latest
+     
+    steps:
+      - name: Checkout code
+        uses: actions/checkout@v4
+
+      - name: Gen tag
+        id: gen-tag
+        run: |
+          echo "tag=$(date +%s)" >> $GITHUB_OUTPUT
+          echo "Generated tag: ${{ steps.gen-tag.outputs.tag }}"
+
+      - name: Build the Docker image
+        run: |
+          echo "Building Website image with tag: ${{ steps.gen-tag.outputs.tag }}"
+          docker build --no-cache -f Dockerfile ./blog --tag ${{ env.IMAGE_BASE }}/${{ env.IMAGE_REPO }}-main:${{ steps.gen-tag.outputs.tag }}
+      - name: Push the Docker image
+        timeout-minutes: 3
+        run: |
+          echo "Logging into Docker registry: ${{ env.IMAGE_BASE }}"
+          docker login --username ${{ secrets.DOCKER_USERNAME }} --password ${{ secrets.DOCKER_PASSWORD }} ${{ env.IMAGE_BASE }}
+          
+          echo "Pushing Website Docker image with tag: ${{ steps.gen-tag.outputs.tag }}"
+          docker push ${{ env.IMAGE_BASE }}/${{ env.IMAGE_REPO }}-main:${{ steps.gen-tag.outputs.tag }}
+          
+      - name: Checkout ArgoCD
+        uses: actions/checkout@v4
+        with:
+          repository: vidar-team-devops/argocd
+          ssh-key: ${{ secrets.ARGO_KEY_SSH }}
+          path: deploy
+          
+#      - name: Update ArgoCD
+#        run: |
+#          cd deploy/tutu
+#          git config user.name github-actions
+#          git config user.email github-actions@github.com
+#          sed -i "s|^\(\s*image:\s*.*:\)[0-9]\+|\1${{ steps.gen-tag.outputs.tag }}|" ./tutu/tutu-deployment.yml
+#          sed -i "s|^\(\s*image:\s*.*:\)[0-9]\+|\1${{ steps.gen-tag.outputs.tag }}|" ./rsa-web-api/rsa-web-api-deployment.yml
+#          sed -i "s|^\(\s*image:\s*.*:\)[0-9]\+|\1${{ steps.gen-tag.outputs.tag }}|" ./blog-mysql/blog-mysql-deployment.yml
+#          git add .
+#          git commit -m "update: image"
+#          git push 
+
