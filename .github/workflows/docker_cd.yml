@@ -46,15 +46,13 @@ jobs:
           ssh-key: ${{ secrets.ARGO_KEY_SSH }}
           path: deploy
           
-#      - name: Update ArgoCD
-#        run: |
-#          cd deploy/tutu
-#          git config user.name github-actions
-#          git config user.email github-actions@github.com
-#          sed -i "s|^\(\s*image:\s*.*:\)[0-9]\+|\1${{ steps.gen-tag.outputs.tag }}|" ./tutu/tutu-deployment.yml
-#          sed -i "s|^\(\s*image:\s*.*:\)[0-9]\+|\1${{ steps.gen-tag.outputs.tag }}|" ./rsa-web-api/rsa-web-api-deployment.yml
-#          sed -i "s|^\(\s*image:\s*.*:\)[0-9]\+|\1${{ steps.gen-tag.outputs.tag }}|" ./blog-mysql/blog-mysql-deployment.yml
-#          git add .
-#          git commit -m "update: image"
-#          git push 
+      - name: Update ArgoCD
+        run: |
+          cd depoly/vidarwebsite
+          git config user.name github-actions
+          git config user.email github-actions@github.com
+          sed -i "s|^\(\s*image:\s*.*:\)[0-9]\+|\1${{ steps.gen-tag.outputs.tag }}|" ./mainpage-sync.yml
+          git add .
+          git commit -m "update: image of mainpage"
+          git push 
 
