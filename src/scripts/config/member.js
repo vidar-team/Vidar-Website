@@ -176,7 +176,7 @@ export default [
     intro: "21级 / 爪哇开发or安全 / 吉吉国王本急 / 想要apple vision",
     avatar:
       "https://thirdqq.qlogo.cn/g?b=sdk&k=3yicxJCN40DUEvlWNRsHWUA&kti=ZI091AAAAAE&s=640",
-    url: "http://www.luelueking.com",
+    url: "https://1ue-blog.pages.dev",
   },
   {
     id: "feifei",
