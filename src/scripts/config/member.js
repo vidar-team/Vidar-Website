@@ -484,8 +484,8 @@ export default [
   },
   {
     id: "E99p1ant",
-    intro: "18级 / 囊地鼠饲养员 / 写了一个叫 Cardinal 的平台",
-    avatar: "https://thirdqq.qlogo.cn/g?b=sdk&k=AJQ9RJRCavhSibMZtRq2JOQ&s=640",
+    intro: "18级 / 囊地鼠饲养员",
+    avatar: "https://img10.360buyimg.com/da/jfs/t1/155573/5/22230/70173/65d4d8c4F70949be1/84260d13b3bedb27.jpg.webp",
     url: "https://github.red/",
   },
   {
