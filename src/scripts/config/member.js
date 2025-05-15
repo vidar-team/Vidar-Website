@@ -39,7 +39,7 @@ export default [
     id: "NaCl",
     intro: "23级 / 弱弱密码 / 我不想失眠~~~",
     avatar: require("../../images/avatar/NaCl.png"),
-    url: "http://naclwww.xyz"
+    url: "http://blog.naclwww.com"
   },
   {
     id: "l1nk",
