@@ -179,11 +179,11 @@ export default [
     url: "https://1ue-blog.pages.dev",
   },
   {
-    id: "feifei",
-    intro: "21级 / Reverse / I want to fly and fly",
+    id: "fei3ei",
+    intro: "21级 / Reverse / I want to do something",
     avatar:
       "https://thirdqq.qlogo.cn/g?b=sdk&k=TIb9VPUlGMa9d2w1Vtxnww&kti=ZI091AAAAAI&s=640",
-    url: "https://www.cnblogs.com/biyifei",
+    url: "https://www.fei3ei.xyz",
   },
   {
     id: "简",
