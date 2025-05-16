@@ -67,10 +67,10 @@ export default [
     url: "https://ec3o.fun"
   },
   {
-    id: "Kira",
-    intro: "23级 / Web",
-    avatar: require("../../images/avatar/Kira.png"),
-    url: "https://k1r4ca.top"
+    id: "Kiracoon",
+    intro: "23级 / Web / Brûle en silence dans la nuit.",
+    avatar: require("../../images/avatar/Kiracoon.png"),
+    url: "https://kiracoon.top/"
   },
   {
     id: "M1aoo0bin",
