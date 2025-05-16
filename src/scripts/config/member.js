@@ -4,7 +4,7 @@ export default [
     intro: "24级 / 车车人🚗"，
     avatar: require("../../image/avatar/Tremse.png"),
     url: "www.Tremse.cn"
-  }
+  },
   {
     id: "Godz1lla",
     intro: "23级 / 最抽象的会长生物 / 致敬传奇摆烂王",
