@@ -1,5 +1,11 @@
 export default [
   {
+    id: "Yim1ngs",
+    intro: "24级 / 歪脖子 / 我要当歪脖的一个手子！",
+    avatar: require("../../images/avatar/Yim1ngs.png"),
+    url: "https://Yim1ngs.github.io"
+  },
+  {
     id: "Godz1lla",
     intro: "23级 / 最抽象的会长生物 / 致敬传奇摆烂王",
     avatar: require("../../images/avatar/Godz1lla.png"),
