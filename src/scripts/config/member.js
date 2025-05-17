@@ -1,5 +1,11 @@
 export default [
   {
+    id: "蹦跶的鱼儿",
+    intro: "24级 / 睡觉摸鱼的密码手 / 喵喵喵?",
+    avatar: require("../../images/avatar/蹦跶的鱼儿.png"),
+    url: "https://bddye.github.io/"
+  },
+  {
     id: "Godz1lla",
     intro: "23级 / 最抽象的会长生物 / 致敬传奇摆烂王",
     avatar: require("../../images/avatar/Godz1lla.png"),
