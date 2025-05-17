@@ -2,7 +2,7 @@ export default [
   {
     id: "蹦跶的鱼儿",
     intro: "24级 / 睡觉摸鱼的密码手 / 喵喵喵?",
-    avatar: require("../../images/avatar/蹦跶的鱼儿.png"),
+    avatar: require("../../images/avatar/蹦跶的鱼儿.jpg"),
     url: "https://bddye.github.io/"
   },
   {
