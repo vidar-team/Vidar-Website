@@ -1,5 +1,11 @@
 export default [
   {
+    id: "obstacle",
+    intro: "24级crypto / 厨师长，负责端茶倒水",
+    avatar: require("../../images/avatar/obstacle.jpg"),
+    url: "https://obstacle.top/"
+  },
+  {
     id: "Godz1lla",
     intro: "23级 / 最抽象的会长生物 / 致敬传奇摆烂王",
     avatar: require("../../images/avatar/Godz1lla.png"),
