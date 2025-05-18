@@ -1,5 +1,11 @@
 export default [
   {
+    id: "Mitsuha",
+    intro: "24级 / ❤ / 杂鱼",
+    avatar: require("../../images/avatar/Mitsuha.jpg"),
+    url: "https://blog.mmitsuha.xyz/"
+  },
+  {
     id: "Godz1lla",
     intro: "23级 / 最抽象的会长生物 / 致敬传奇摆烂王",
     avatar: require("../../images/avatar/Godz1lla.png"),
