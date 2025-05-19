@@ -1,5 +1,11 @@
 export default [
   {
+    id: "whi4ed0g",
+    intro: "24级 / 菜鸡pwn手 ",
+    avatar: require("../../images/avatar/whi4ed0g.jpg"),
+    url: "https://whi4ed0g.xyz/"
+  },
+  {
     id: "Godz1lla",
     intro: "23级 / 最抽象的会长生物 / 致敬传奇摆烂王",
     avatar: require("../../images/avatar/Godz1lla.png"),
