@@ -1,5 +1,11 @@
 export default [
   {
+    id: "mufeng05",
+    intro: "24级 / 不知道什么手qwq / 摸鱼摆烂手?",
+    avatar: require("../../images/avatar/mufeng05.jpg"),
+    url: "#"
+  },
+  {
     id: "Godz1lla",
     intro: "23级 / 最抽象的会长生物 / 致敬传奇摆烂王",
     avatar: require("../../images/avatar/Godz1lla.png"),
