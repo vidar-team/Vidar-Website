@@ -1,5 +1,11 @@
 export default [
   {
+    id: "siyah",
+    intro: "23级 / 密码手",
+    avatar: require("../../images/avatar/siyah.png"),
+    url: "http://siyah7.github.io"
+  },
+  {
     id: "Godz1lla",
     intro: "23级 / 最抽象的会长生物 / 致敬传奇摆烂王",
     avatar: require("../../images/avatar/Godz1lla.png"),
