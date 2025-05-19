@@ -2,7 +2,7 @@ export default [
   {
     id: "Woore",
     intro: "24级 / 努力驯化agent的歪脖手",
-    avatar: require("../../images/avatar/Woore.png"),
+    avatar: require("../../images/avatar/Woore.jpg"),
     url: "http://www.woore.website/wordpress/"
   },
   {
