@@ -1,5 +1,11 @@
 export default [
   {
+    id: "re35T",
+    intro: "24级 / 菜菜Web / 喜欢学看不懂的 / 佛系猫奴",
+    avatar: require("../../images/avatar/re35T.png"),
+    url: "http://re35t.top"
+  },
+  {
     id: "Godz1lla",
     intro: "23级 / 最抽象的会长生物 / 致敬传奇摆烂王",
     avatar: require("../../images/avatar/Godz1lla.png"),
