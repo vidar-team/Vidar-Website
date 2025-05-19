@@ -3,7 +3,7 @@ export default [
     id: "Wsdx233",
     intro: "24级 / 游戏开发 / 学习逆向",
     avatar: require("../../images/avatar/wsdx233.jpg"),
-    url: "#"
+    url: "wsdx233.github.io"
   },
   {
     id: "Godz1lla",
