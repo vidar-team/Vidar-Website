@@ -1,5 +1,11 @@
 export default [
   {
+    id: "Woore",
+    intro: "24级 / 努力炼神丹的歪脖手",
+    avatar: require("../../images/avatar/Woore.png"),
+    url: "http://www.woore.website/wordpress/"
+  },
+  {
     id: "Godz1lla",
     intro: "23级 / 最抽象的会长生物 / 致敬传奇摆烂王",
     avatar: require("../../images/avatar/Godz1lla.png"),
