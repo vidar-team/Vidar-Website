@@ -1,5 +1,11 @@
 export default [
   {
+    id: "Shiori",
+    intro: "24级 / re / 菜 / 还要进步",
+    avatar: require("../../images/avatar/Shiori.png"),
+    url: "sh10rl.top"
+  },
+  {
     id: "Godz1lla",
     intro: "23级 / 最抽象的会长生物 / 致敬传奇摆烂王",
     avatar: require("../../images/avatar/Godz1lla.png"),
