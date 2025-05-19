@@ -1,5 +1,11 @@
 export default [
   {
+    id: "Wsdx233",
+    intro: "24级 / 游戏开发 / 学习逆向",
+    avatar: require("../../images/avatar/wsdx233.jpg"),
+    url: "#"
+  },
+  {
     id: "Godz1lla",
     intro: "23级 / 最抽象的会长生物 / 致敬传奇摆烂王",
     avatar: require("../../images/avatar/Godz1lla.png"),
