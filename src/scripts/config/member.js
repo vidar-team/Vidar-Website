@@ -1,5 +1,11 @@
 export default [
   {
+    id: "gcssjcsa",
+    intro: "24级 / Web or Misc? / 德克萨斯做得到吗",
+    avatar: require("../../images/avatar/gcssjcsa.jpg"),
+    url: "https://www.gcssjcsa.top/"
+  },
+  {
     id: "Godz1lla",
     intro: "23级 / 最抽象的会长生物 / 致敬传奇摆烂王",
     avatar: require("../../images/avatar/Godz1lla.png"),
