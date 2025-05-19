@@ -1,5 +1,11 @@
 export default [
   {
+    id: "seal",
+    intro: "24级 / BadBadBadSeal",
+    avatar: require("../../images/avatar/seal.jpg"),
+    url: "https://blog.seal.college"
+  },
+  {
     id: "Godz1lla",
     intro: "23级 / 最抽象的会长生物 / 致敬传奇摆烂王",
     avatar: require("../../images/avatar/Godz1lla.png"),
