@@ -1,5 +1,11 @@
 export default [
   {
+    id: "s3v3n",
+    intro: "24级 / 运营＋RE菜菜 / 苛刻的完美主义者",
+    avatar: require("../../images/avatar/s3v3n.png"),
+    url: "https://www.gr4ycr4ne.cn/"
+  },
+  {
     id: "Godz1lla",
     intro: "23级 / 最抽象的会长生物 / 致敬传奇摆烂王",
     avatar: require("../../images/avatar/Godz1lla.png"),
