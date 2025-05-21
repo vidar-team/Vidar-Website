@@ -8,7 +8,7 @@ export default [
   {
     id: "s3v3n",
     intro: "24级 / 运营＋RE菜菜 / 苛刻的完美主义者",
-    avatar: require("../../images/avatar/s3v3n.png"),
+    avatar: require("../../images/avatar/s3v3n.jpg"),
     url: "https://www.gr4ycr4ne.cn/"
   },
   {
@@ -104,7 +104,7 @@ export default [
   {
     id: "Tremse",
     intro: "24级 / 车车人🚗",
-    avatar: require("../../image/avatar/Tremse.png"),
+    avatar: require("../../images/avatar/Tremse.png"),
     url: "www.Tremse.cn"
   },
   {
