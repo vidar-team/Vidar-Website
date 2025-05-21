@@ -1,5 +1,11 @@
 export default [
   {
+    id: "siyah",
+    intro: "23级 / 密码手",
+    avatar: require("../../images/avatar/siyah.png"),
+    url: "http://siyah7.github.io"
+  },
+  {
     id: "whi4ed0g",
     intro: "24级 / 菜鸡pwn手 ",
     avatar: require("../../images/avatar/whi4ed0g.jpg"),
@@ -68,7 +74,8 @@ export default [
   {
     id: "Tremse",
     intro: "24级 / 车车人🚗",
-    avatar: require("../../image
+    avatar: require("../../image/avatar/Tremse.png"),
+    url: "www.Tremse.cn"  
   },
   {
     id: "Godz1lla",
