@@ -1,5 +1,11 @@
 export default [
   {
+    id: "Mitsuha",
+    intro: "24级 / ❤ / 杂鱼",
+    avatar: require("../../images/avatar/Mitsuha.jpg"),
+    url: "https://blog.mmitsuha.xyz/"
+  },
+  {
     id: "obstacle",
     intro: "24级crypto / 厨师长，负责端茶倒水",
     avatar: require("../../images/avatar/obstacle.jpg"),
@@ -17,6 +23,7 @@ export default [
     avatar: require("../../images/avatar/Yim1ngs.png"),
     url: "https://Yim1ngs.github.io"
   },
+  {
     id: "Tremse",
     intro: "24级 / 车车人🚗",
     avatar: require("../../image/avatar/Tremse.png"),
