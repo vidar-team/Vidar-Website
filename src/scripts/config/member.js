@@ -1,5 +1,11 @@
 export default [
   {
+    id: "summ2",
+    intro: "24级 / 能学一辈子cs吗",
+    avatar: require("../../images/avatar/summ2.jpg"),
+    url: "https://summ2.link/"
+  },
+  {
     id: "Mitsuha",
     intro: "24级 / ❤ / 杂鱼",
     avatar: require("../../images/avatar/Mitsuha.jpg"),
