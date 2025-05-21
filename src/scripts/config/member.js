@@ -5,6 +5,11 @@ export default [
     avatar: require("../../images/avatar/Yim1ngs.png"),
     url: "https://Yim1ngs.github.io"
   },
+    id: "Tremse",
+    intro: "24级 / 车车人🚗",
+    avatar: require("../../image/avatar/Tremse.png"),
+    url: "www.Tremse.cn"
+  },
   {
     id: "Godz1lla",
     intro: "23级 / 最抽象的会长生物 / 致敬传奇摆烂王",
