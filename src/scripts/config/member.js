@@ -1,5 +1,11 @@
 export default [
   {
+    id: "5i1encee",
+    intro: "23级 / 菜菜web手 / 向着糕手前进(ง •_•)ง",
+    avatar: require("../../images/avatar/5i1encee.jpg"),
+    url: "https://5i1encee.github.io"
+  },
+  {
     id: "siyah",
     intro: "23级 / 密码手",
     avatar: require("../../images/avatar/siyah.png"),
