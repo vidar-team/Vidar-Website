@@ -1,15 +1,27 @@
 export default [
   {
-    id: "Trdyears",
-    intro: "24级 / 彩笔美术 / 啥也不会",
-    avatar: require("../../images/avatar/Trdyears.jpg"),
-    url: "#"
-  },
-  {
     id: "s3v3n",
     intro: "24级 / 运营＋RE菜菜 / 苛刻的完美主义者",
     avatar: require("../../images/avatar/s3v3n.jpg"),
     url: "https://www.gr4ycr4ne.cn/"
+  },
+  {
+    id: "Tremse",
+    intro: "24级 / 车车人🚗",
+    avatar: require("../../images/avatar/Tremse.png"),
+    url: "www.Tremse.cn"
+  },
+  {
+    id: "whi4ed0g",
+    intro: "24级 / 菜鸡pwn手 ",
+    avatar: require("../../images/avatar/whi4ed0g.jpg"),
+    url: "https://whi4ed0g.xyz/"
+  },
+  {
+    id: "Trdyears",
+    intro: "24级 / 彩笔美术 / 啥也不会",
+    avatar: require("../../images/avatar/Trdyears.jpg"),
+    url: "#"
   },
   {
     id: "gcssjcsa",
@@ -34,12 +46,6 @@ export default [
     intro: "23级 / 密码手",
     avatar: require("../../images/avatar/siyah.png"),
     url: "http://siyah7.github.io"
-  },
-  {
-    id: "whi4ed0g",
-    intro: "24级 / 菜鸡pwn手 ",
-    avatar: require("../../images/avatar/whi4ed0g.jpg"),
-    url: "https://whi4ed0g.xyz/"
   },
   {
     id: "Shiori",
@@ -102,10 +108,10 @@ export default [
     url: "https://Yim1ngs.github.io"
   },
   {
-    id: "Tremse",
-    intro: "24级 / 车车人🚗",
-    avatar: require("../../images/avatar/Tremse.png"),
-    url: "www.Tremse.cn"
+	id: "银天",
+    intro: "22级/不会画画的画手/二次元资深婆罗门",
+    avatar: require("../../images/avatar/银天.jpg"),
+	url: "#",
   },
   {
     id: "Godz1lla",
