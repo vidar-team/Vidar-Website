@@ -6,6 +6,102 @@ export default [
     url: "https://www.gr4ycr4ne.cn/"
   },
   {
+    id: "gcssjcsa",
+    intro: "24级 / Web or Misc? / 德克萨斯做得到吗",
+    avatar: require("../../images/avatar/gcssjcsa.jpg"),
+    url: "https://www.gcssjcsa.top/"
+  },
+  {
+    id: "re35T",
+    intro: "24级 / 菜菜Web / 喜欢学看不懂的 / 佛系猫奴",
+    avatar: require("../../images/avatar/re35T.png"),
+    url: "http://re35t.top"
+  },
+  {
+    id: "5i1encee",
+    intro: "23级 / 菜菜web手 / 向着糕手前进(ง •_•)ง",
+    avatar: require("../../images/avatar/5i1encee.jpg"),
+    url: "https://5i1encee.github.io"
+  },
+  {
+    id: "siyah",
+    intro: "23级 / 密码手",
+    avatar: require("../../images/avatar/siyah.png"),
+    url: "http://siyah7.github.io"
+  },
+  {
+    id: "whi4ed0g",
+    intro: "24级 / 菜鸡pwn手 ",
+    avatar: require("../../images/avatar/whi4ed0g.jpg"),
+    url: "https://whi4ed0g.xyz/"
+  },
+  {
+    id: "Shiori",
+    intro: "24级 / re / 菜 / 还要进步",
+    avatar: require("../../images/avatar/Shiori.png"),
+    url: "sh10rl.top"
+  },
+  {
+    id: "Woore",
+    intro: "24级 / 努力驯化agent的歪脖手",
+    avatar: require("../../images/avatar/Woore.jpg"),
+    url: "http://www.woore.website/wordpress/"
+  },
+  {
+    id: "Wsdx233",
+    intro: "24级 / 游戏开发 / 学习逆向",
+    avatar: require("../../images/avatar/wsdx233.jpg"),
+    url: "wsdx233.github.io"
+  },
+  {
+    id: "seal",
+    intro: "24级 / BadBadBadSeal",
+    avatar: require("../../images/avatar/seal.jpg"),
+    url: "https://blog.seal.college"
+  },
+  {
+    id: "mufeng05",
+    intro: "24级 / 不知道什么手qwq / 摸鱼摆烂手?",
+    avatar: require("../../images/avatar/mufeng05.jpg"),
+    url: "#"
+  },
+  {
+    id: "summ2",
+    intro: "24级 / 能学一辈子cs吗",
+    avatar: require("../../images/avatar/summ2.jpg"),
+    url: "https://summ2.link/"
+  },
+  {
+    id: "Mitsuha",
+    intro: "24级 / ❤ / 杂鱼",
+    avatar: require("../../images/avatar/Mitsuha.jpg"),
+    url: "https://blog.mmitsuha.xyz/"
+  },
+  {
+    id: "obstacle",
+    intro: "24级crypto / 厨师长，负责端茶倒水",
+    avatar: require("../../images/avatar/obstacle.jpg"),
+    url: "https://obstacle.top/"
+  },
+  {
+    id: "蹦跶的鱼儿",
+    intro: "24级 / 睡觉摸鱼的密码手 / 喵喵喵?",
+    avatar: require("../../images/avatar/蹦跶的鱼儿.jpg"),
+    url: "https://bddye.github.io/"
+  },
+  {
+    id: "Yim1ngs",
+    intro: "24级 / 歪脖子 / 我要当歪脖的一个手子！",
+    avatar: require("../../images/avatar/Yim1ngs.png"),
+    url: "https://Yim1ngs.github.io"
+  },
+  {
+    id: "Tremse",
+    intro: "24级 / 车车人🚗",
+    avatar: require("../../image/avatar/Tremse.png"),
+    url: "www.Tremse.cn"
+  },
+  {
     id: "Godz1lla",
     intro: "23级 / 最抽象的会长生物 / 致敬传奇摆烂王",
     avatar: require("../../images/avatar/Godz1lla.png"),
