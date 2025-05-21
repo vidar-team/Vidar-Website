@@ -1,5 +1,11 @@
 export default [
   {
+    id: "Wsdx233",
+    intro: "24级 / 游戏开发 / 学习逆向",
+    avatar: require("../../images/avatar/wsdx233.jpg"),
+    url: "wsdx233.github.io"
+  },
+  {
     id: "seal",
     intro: "24级 / BadBadBadSeal",
     avatar: require("../../images/avatar/seal.jpg"),
