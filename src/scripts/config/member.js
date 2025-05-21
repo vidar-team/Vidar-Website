@@ -1,5 +1,11 @@
 export default [
   {
+    id: "whi4ed0g",
+    intro: "24级 / 菜鸡pwn手 ",
+    avatar: require("../../images/avatar/whi4ed0g.jpg"),
+    url: "https://whi4ed0g.xyz/"
+  },
+  {
     id: "Shiori",
     intro: "24级 / re / 菜 / 还要进步",
     avatar: require("../../images/avatar/Shiori.png"),
@@ -62,8 +68,7 @@ export default [
   {
     id: "Tremse",
     intro: "24级 / 车车人🚗",
-    avatar: require("../../image/avatar/Tremse.png"),
-    url: "www.Tremse.cn"
+    avatar: require("../../image
   },
   {
     id: "Godz1lla",
