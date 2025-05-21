@@ -1,5 +1,11 @@
 export default [
   {
+    id: "re35T",
+    intro: "24级 / 菜菜Web / 喜欢学看不懂的 / 佛系猫奴",
+    avatar: require("../../images/avatar/re35T.png"),
+    url: "http://re35t.top"
+  },
+  {
     id: "5i1encee",
     intro: "23级 / 菜菜web手 / 向着糕手前进(ง •_•)ง",
     avatar: require("../../images/avatar/5i1encee.jpg"),
@@ -81,7 +87,7 @@ export default [
     id: "Tremse",
     intro: "24级 / 车车人🚗",
     avatar: require("../../image/avatar/Tremse.png"),
-    url: "www.Tremse.cn"  
+    url: "www.Tremse.cn"
   },
   {
     id: "Godz1lla",
