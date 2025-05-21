@@ -1,5 +1,10 @@
 export default [
   {
+    id: "Yim1ngs",
+    intro: "24级 / 歪脖子 / 我要当歪脖的一个手子！",
+    avatar: require("../../images/avatar/Yim1ngs.png"),
+    url: "https://Yim1ngs.github.io"
+  },
     id: "Tremse",
     intro: "24级 / 车车人🚗",
     avatar: require("../../image/avatar/Tremse.png"),
