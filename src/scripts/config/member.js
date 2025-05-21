@@ -1,5 +1,11 @@
 export default [
   {
+    id: "mufeng05",
+    intro: "24级 / 不知道什么手qwq / 摸鱼摆烂手?",
+    avatar: require("../../images/avatar/mufeng05.jpg"),
+    url: "#"
+  },
+  {
     id: "summ2",
     intro: "24级 / 能学一辈子cs吗",
     avatar: require("../../images/avatar/summ2.jpg"),
