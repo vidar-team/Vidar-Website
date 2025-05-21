@@ -1,5 +1,11 @@
 export default [
   {
+    id: "seal",
+    intro: "24级 / BadBadBadSeal",
+    avatar: require("../../images/avatar/seal.jpg"),
+    url: "https://blog.seal.college"
+  },
+  {
     id: "mufeng05",
     intro: "24级 / 不知道什么手qwq / 摸鱼摆烂手?",
     avatar: require("../../images/avatar/mufeng05.jpg"),
