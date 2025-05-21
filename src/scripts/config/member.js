@@ -1,5 +1,11 @@
 export default [
   {
+    id: "Trdyears",
+    intro: "24级 / 彩笔美术 / 啥也不会",
+    avatar: require("../../images/avatar/Trdyears.jpg"),
+    url: "#"
+  },
+  {
     id: "s3v3n",
     intro: "24级 / 运营＋RE菜菜 / 苛刻的完美主义者",
     avatar: require("../../images/avatar/s3v3n.png"),
