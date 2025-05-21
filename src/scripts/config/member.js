@@ -9,7 +9,7 @@ export default [
     id: "Tremse",
     intro: "24级 / 车车人🚗",
     avatar: require("../../images/avatar/Tremse.png"),
-    url: "www.Tremse.cn"
+    url: "https://www.Tremse.cn"
   },
   {
     id: "whi4ed0g",
@@ -51,7 +51,7 @@ export default [
     id: "Shiori",
     intro: "24级 / re / 菜 / 还要进步",
     avatar: require("../../images/avatar/Shiori.png"),
-    url: "sh10rl.top"
+    url: "https://sh10rl.top"
   },
   {
     id: "Woore",
@@ -63,7 +63,7 @@ export default [
     id: "Wsdx233",
     intro: "24级 / 游戏开发 / 学习逆向",
     avatar: require("../../images/avatar/wsdx233.jpg"),
-    url: "wsdx233.github.io"
+    url: "https://wsdx233.github.io"
   },
   {
     id: "seal",
