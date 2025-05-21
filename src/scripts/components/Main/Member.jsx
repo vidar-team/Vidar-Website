@@ -49,7 +49,7 @@ export default () => {
     const members = groupedMembers[selectedGrade];
 
     return (
-        <section className="_member">
+        <div className="_member">
             <div className="member__line-start" />
             <div className="member__content">
                 <div className="member__head">
@@ -85,6 +85,6 @@ export default () => {
                 </div>
             </div>
             <div className="member__line-end" />
-        </section>
+        </div>
     );
 };
