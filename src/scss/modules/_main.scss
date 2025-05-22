@@ -295,10 +295,15 @@
                 font-family: $theme-font-special;
                 letter-spacing: .2rem;
                 font-size: 1.2rem;
-                color: #fff;
-                border: 0;
                 background: rgba(255, 255, 255, 0);
+                color: rgb(198, 198, 198);
+                border: 0;
+                transition: 0.5s ease;
+            }
+            .Tab__button:hover{
                 cursor: pointer;
+                color: rgb(255, 255, 255);
+                transition: 0.5s ease;
             }
             .Tab__menu {
                 height: 28.8px;
@@ -312,6 +317,8 @@
                 display: none;
             }
             .Tab__item {
+                animation: menu .5s;
+                -webkit-animation: menu .5s;
                 font-family: $theme-font-special;
                 letter-spacing: .2rem;
                 font-size: 1.2rem;
@@ -321,11 +328,18 @@
                 white-space: nowrap;
                 border-radius: 4px;
                 background-color: #50505000;
-                transition: 0.2s ease;
+                color: rgb(163, 163, 163);
+                transition: 0.5s ease;
             }
             .Tab__item:hover{
-                background-color: #66666625;
-                color: white;
+                background-color: #66666600;
+                color: rgb(255, 255, 255);
+                transition: 0.5s ease;
+            }
+
+            @keyframes menu{
+                from {color: rgba(255, 255, 255, 0);}
+                to {color: rgb(163, 163, 163);}
             }
         }
 
