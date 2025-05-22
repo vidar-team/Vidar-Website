@@ -1,5 +1,6 @@
 import React, { useState, useEffect } from 'react';
 import member_info from '../../config/member.js';
+import Bar  from '../../../images/bars.png';
 
 // 手搓横向选择选项框
 const GradeSelector = ({ options, selected, onSelect }) => {
@@ -23,7 +24,9 @@ const GradeSelector = ({ options, selected, onSelect }) => {
                 className={`Tab__button ${open ? 'button__Open' : 'button__Close'}`}
             >
                 {selected} 
+            <img src={Bar} className={`bars ${open ? 'button__Open' : 'button__Close'}`}/>
             </button>
+
             {renderMenu && (
                 <div className="Tab__menu">
                     {options.map((grade) => (
@@ -47,7 +50,7 @@ const GradeSelector = ({ options, selected, onSelect }) => {
 export default () => {
     // 分组数据
     const groupedMembers = member_info.reduce((acc, member) => {
-        const grade = member.grade || 'others';
+        const grade = member.grade || 'OTHERS';
         if (!acc[grade]) acc[grade] = [];
         acc[grade].push(member);
         return acc;
