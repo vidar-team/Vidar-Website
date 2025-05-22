@@ -317,8 +317,6 @@
                 display: none;
             }
             .Tab__item {
-                animation: menu .5s;
-                -webkit-animation: menu .5s;
                 font-family: $theme-font-special;
                 letter-spacing: .2rem;
                 font-size: 1.2rem;
@@ -337,9 +335,30 @@
                 transition: 0.5s ease;
             }
 
-            @keyframes menu{
-                from {color: rgba(255, 255, 255, 0);}
-                to {color: rgb(163, 163, 163);}
+            .Tab__Open {
+                animation: TabOpen 0.5s ease;
+            }
+            .Tab__Close {
+                animation: TabClose 0.5s ease;
+            }
+            .button__Close{
+                animation: fadein .04s linear alternate 7 forwards;
+            }
+            @keyframes TabOpen {
+                from {
+                    color: rgba(0, 0, 0, 0);
+                }
+                to {
+                    color: rgb(163, 163, 163);
+                }
+            }
+            @keyframes TabClose {
+                from {
+                    color: rgb(163, 163, 163);
+                }
+                to {
+                    color: rgba(0, 0, 0, 0);
+                }
             }
         }
 
