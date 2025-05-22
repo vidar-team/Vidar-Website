@@ -1,24 +1,35 @@
-import React, { useState } from 'react';
+import React, { useState, useEffect } from 'react';
 import member_info from '../../config/member.js';
 
 // 手搓横向选择选项框
 const GradeSelector = ({ options, selected, onSelect }) => {
     const [open, setOpen] = useState(false);
+    const [renderMenu, setRenderMenu] = useState(false);
+
+    // 延迟移除选项使得动画能播完
+    useEffect(() => {
+        if (open) {
+            setRenderMenu(true);
+        } else {
+            const timeout = setTimeout(() => setRenderMenu(false), 400);
+            return () => clearTimeout(timeout);
+        }
+    }, [open]);
 
     return (
         <div className="Tab">
             <button
                 onClick={() => setOpen(!open)}
-                className="Tab__button"
+                className={`Tab__button ${open ? 'button__Open' : 'button__Close'}`}
             >
                 {selected} 
             </button>
-            {open && (
+            {renderMenu && (
                 <div className="Tab__menu">
                     {options.map((grade) => (
                         <div
                             key={grade}
-                            className={`Tab__item ${selected === grade ? 'selected' : ''}`}
+                            className={`Tab__item ${selected === grade ? 'selected' : ''} ${open ? 'Tab__Open' : 'Tab__Close'}`}
                             onClick={() => {
                                 onSelect(grade);
                                 setOpen(false);
