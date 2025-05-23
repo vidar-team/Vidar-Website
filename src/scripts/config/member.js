@@ -295,7 +295,7 @@ export default [
   {
     id: "ma1n",
     intro: "22级 / Reverse / 努力变强",
-    grade:"",
+    grade: "22",
     avatar:
       "https://thirdqq.qlogo.cn/g?b=sdk&k=npgXu3vuKne0O8JoKVUvibg&kti=ZI090wAAAAI&s=640",
     url: "#",

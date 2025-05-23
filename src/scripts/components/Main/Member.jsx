@@ -24,7 +24,7 @@ const GradeSelector = ({ options, selected, onSelect }) => {
                 className={`Tab__button ${open ? 'button__Open' : 'button__Close'}`}
             >
                 {selected} 
-            <img src={Bar} className={`bars ${open ? 'button__Open' : 'button__Close'}`}/>
+		        <label class="menu-btn"><span></span></label>
             </button>
 
             {renderMenu && (

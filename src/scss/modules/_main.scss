@@ -290,6 +290,7 @@
 
             .Tab {
                 max-width: 100%; 
+                width: 100%;
                 padding-top: .8rem;
                 padding-left: .5rem;
                 overflow-x: auto;
@@ -299,7 +300,6 @@
             }
             .Tab__button {
                 display: flex;
-                padding-top: .25rem;
                 height: 28.8px;
                 font-family: $theme-font-special;
                 letter-spacing: .2rem;
@@ -318,6 +318,7 @@
                 display: flex;
                 overflow: auto;
                 background: rgba(69, 69, 69, 0);
+                margin-right: 10px;
                 border: 0;
                 z-index: 10;
             }
@@ -329,7 +330,6 @@
                 letter-spacing: .2rem;
                 font-size: 1.2rem;
                 margin-left: 1rem;
-                padding-top: .25rem;
                 cursor: pointer;
                 white-space: nowrap;
                 border-radius: 4px;
@@ -342,13 +342,38 @@
                 color: rgb(255, 255, 255);
                 transition: 0.5s ease;
             }
-
+            .menu-btn {
+              position: relative;
+              padding-left: 5px;
+              padding-right: 5px;
+              height: 1rem;
+              width: 1rem;
+              cursor: pointer;
+            }
+            .menu-btn span {
+              top: 8px;
+            }
+            .menu-btn span,
+            .menu-btn span:before,
+            .menu-btn span:after {
+              content: '';
+              display: block;
+              height: 1px;
+              width: 1rem;
+              border-radius: 1px;
+              background-color: rgb(198, 198, 198);
+              position: absolute;
+            }
+            .menu-btn span:before {
+              bottom: 5px;
+            }
+            .menu-btn span:after {
+              top: 5px;
+            }
             .bars{
                 object-fit: contain;
-                padding-top: .2rem;
-                padding-left: .25rem;
                 display: block;
-                width: 13px; height: 14px;
+                height: 1.0rem;
                 transition: 0.5s ease;
             }
             .bars:hover{
