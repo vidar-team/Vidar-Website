@@ -925,7 +925,7 @@ export default [
   {
     id: "Spine",
     intro: "逆向 / 二进制安全",
-    grade: "",
+    grade: "15",
     avatar: require("../../images/avatar/spine.jpg"),
     url: "#",
   },
@@ -940,7 +940,7 @@ export default [
     id: "Airbasic",
     intro:
       "Web 安全 / 长亭科技安服部门 / TSRC 2015 年年度英雄榜第八、2016 年年度英雄榜第十三",
-    grade: "",
+    grade: "13",
     avatar: require("../../images/avatar/airbasic.jpg"),
     url: "#",
   },
@@ -1064,14 +1064,14 @@ export default [
   {
     id: "陈斩仙",
     intro: "什么都不会 / 咸鱼研究生 / <del>安恒</del>、<del>长亭</del> / SJTU",
-    grade: "",
+    grade: "13",
     avatar: require("../../images/avatar/chenzhanxian.jpg"),
     url: "https://mxgcccc4.github.io/",
   },
   {
     id: "Eric",
     intro: "渗透 / 人工智能 / 北师大博士",
-    grade: "",
+    grade: "13",
     avatar: require("../../images/avatar/eric.jpg"),
     url: "https://3riccc.github.io",
   },
