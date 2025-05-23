@@ -109,7 +109,7 @@ export default [
   },
   {
 	id: "银天",
-    intro: "22级/不会画画的画手/二次元资深婆罗门",
+    intro: "22级 / 不会画画的画手 / 二次元资深婆罗门",
     avatar: require("../../images/avatar/银天.jpg"),
 	url: "#",
   },
