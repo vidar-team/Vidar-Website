@@ -15,8 +15,8 @@ export default [
   },
   {
     id: "whi4ed0g",
-    intro: "24级 / 菜鸡pwn手 ",
-    grade: "24",
+    intro: "23级 / 菜鸡pwn手 / 努力成为iot糕手",
+    grade: "23",
     avatar: require("../../images/avatar/whi4ed0g.jpg"),
     url: "https://whi4ed0g.xyz/"
   },
