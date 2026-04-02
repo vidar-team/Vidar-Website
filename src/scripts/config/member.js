@@ -84,25 +84,11 @@ export default [
     url: "https://blog.seal.college"
   },
   {
-    id: "mufeng05",
-    intro: "24级 / 不知道什么手qwq / 摸鱼摆烂手?",
-    grade: "24",
-    avatar: require("../../images/avatar/mufeng05.jpg"),
-    url: "#"
-  },
-  {
     id: "summ2",
     intro: "24级 / 能学一辈子cs吗",
     grade: "24",
     avatar: require("../../images/avatar/summ2.jpg"),
     url: "https://summ2.link/"
-  },
-  {
-    id: "Mitsuha",
-    intro: "24级 / ❤ / 杂鱼",
-    grade: "24",
-    avatar: require("../../images/avatar/Mitsuha.jpg"),
-    url: "https://blog.mmitsuha.xyz/"
   },
   {
     id: "obstacle",
@@ -211,11 +197,11 @@ export default [
     url: "https://ec3o.fun"
   },
   {
-    id: "Kiracoon",
+    id: "Kirac0on",
     intro: "23级 / Web / Brûle en silence dans la nuit.",
     grade: "23",
-    avatar: require("../../images/avatar/Kiracoon.png"),
-    url: "https://kiracoon.top/"
+    avatar: require("../../images/avatar/kirac0on.png"),
+    url: "https://kirac0on.com/"
   },
   {
     id: "M1aoo0bin",
