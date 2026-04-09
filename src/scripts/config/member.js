@@ -339,7 +339,7 @@ export default [
     grade: "21",
     avatar:
       "https://thirdqq.qlogo.cn/g?b=sdk&k=KVDzcPAkCicqatMyafpGnicA&kti=ZI091AAAAAE&s=640",
-    url: "https://www.jian.pl",
+    url: "/",
   },
   {
     id: "ff1y",
