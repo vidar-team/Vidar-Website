@@ -165,7 +165,7 @@ export default [
     intro: "23级 / 啥都想学但是啥都不会 oωo",
     grade: "23",
     avatar: require("../../images/avatar/RongBao.png"),
-    url: "https://csharpermantle.github.io"
+    url: "https://csmantle.top"
   },
   {
     id: "1s",
