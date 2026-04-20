@@ -1,12 +1,5 @@
 export default [
   {
-    id: "DODOR",
-    intro: "25级 / Misccccccc / 憧憬成为pwn糕手",
-    grade: "25",
-    avatar: require("../../images/avatar/DODOR.jpg"),
-    url: "https://dodor.top"
-  },
-  {
     id: "Rencj",
     intro: "25级 / 会一点Misc / 啥都想学点 / 走一步看一步",
     grade: "25",
