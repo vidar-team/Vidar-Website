@@ -1,5 +1,12 @@
 export default [
   {
+    id: "wuliwa",
+    intro: "25级 / web or misc? / 什么都不会喵！ / 想成为糕手口牙！",
+    grade: "25",
+    avatar: require("../../images/avatar/wuliwa.jpg"),
+    url: "https://wuli-wa.github.io/"
+  },
+  {
     id: "ScaredCube",
     intro: "25级 / 做白日梦......",
     grade: "25",
