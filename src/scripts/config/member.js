@@ -1,5 +1,12 @@
 export default [
   {
+    id: "lewis",
+    intro: "25级 / web / 不务正业",
+    grade: "25",
+    avatar: require("../../images/avatar/lewis.jpg"),
+    url: "https://lewis1766.github.io"
+  },
+  {
     id: "DODOR",
     intro: "25级 / Misccccccc / 憧憬成为pwn糕手",
     grade: "25",
