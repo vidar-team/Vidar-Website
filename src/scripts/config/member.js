@@ -1,5 +1,12 @@
 export default [
   {
+    id: "sansMMs",
+    intro: "25级 / 菜菜RE / 想学游戏安全",
+    grade: "25",
+    avatar: require("../../images/avatar/sansMMs.jpg"),
+    url: "#"
+  },
+  {
     id: "s3v3n",
     intro: "24级 / 运营＋RE菜菜 / 苛刻的完美主义者",
     grade: "24",
