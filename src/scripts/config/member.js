@@ -1,5 +1,12 @@
 export default [
   {
+    id: "ScaredCube",
+    intro: "25级 / 做白日梦......",
+    grade: "25",
+    avatar: require("../../images/avatar/scaredcube.jpg"),
+    url: "https://sccube.link/"
+  },
+  {
     id: "lewis",
     intro: "25级 / web / 不务正业",
     grade: "25",
