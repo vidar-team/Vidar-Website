@@ -679,7 +679,7 @@ export default [
   },
   {
     id: "E99p1ant",
-    intro: "18级 / 囊地鼠饲养员",
+    intro: "18级 / 写 Go 造轮子 / 挖洞攒 CVE / Be cool, but also be warm.",
     grade: "18",
     avatar: "https://img10.360buyimg.com/da/jfs/t1/155573/5/22230/70173/65d4d8c4F70949be1/84260d13b3bedb27.jpg.webp",
     url: "https://github.red/",
