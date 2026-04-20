@@ -1,5 +1,12 @@
 export default [
   {
+    id: "Rencj",
+    intro: "25级 / 会一点Misc / 啥都想学点 / 走一步看一步",
+    grade: "25",
+    avatar: require("../../images/avatar/Rencj.jpg"),
+    url: "#"
+  },
+  {
     id: "sansMMs",
     intro: "25级 / 菜菜RE / 想学游戏安全",
     grade: "25",
