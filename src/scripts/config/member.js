@@ -39,7 +39,7 @@ export default [
     intro: "25级 / 会一点Misc / 啥都想学点 / 走一步看一步",
     grade: "25",
     avatar: require("../../images/avatar/Rencj.jpg"),
-    url: "#"
+    url: "https://blog.rencj.top/"
   },
   {
     id: "sansMMs",
