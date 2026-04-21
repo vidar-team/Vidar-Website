@@ -1,5 +1,12 @@
 export default [
   {
+    id: "c0d4",
+    intro: "25级 / re & crypto / Labmem No.003",
+    grade: "25",
+    avatar: require("../../images/avatar/c0d4.jpg"),
+    url: "https://c0d4.ink/"
+  },
+  {
     id: "wuliwa",
     intro: "25级 / web or misc? / 什么都不会喵！ / 想成为糕手口牙！",
     grade: "25",
