@@ -1,5 +1,12 @@
 export default [
   {
+    id: "arkerny",
+    intro: "25级 / アーカーニー先生",
+    grade: "25",
+    avatar: require("../../images/avatar/arkerny.jpg"),
+    url: "https://akn.moe/"
+  },
+  {
     id: "c0d4",
     intro: "25级 / re & crypto / Labmem No.003",
     grade: "25",
