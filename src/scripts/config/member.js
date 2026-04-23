@@ -1,4 +1,11 @@
 export default [
+    {
+    id: "CaPoωo",
+    intro: "25级 / web & misc 什么都不会喵oωo",
+    grade: "25",
+    avatar: require("../../images/avatar/CaPoωo.jpg"),
+    url: "https://capoo.me/"
+  },
   {
     id: "arkerny",
     intro: "25级 / アーカーニー先生",
